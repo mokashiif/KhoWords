@@ -1,17 +1,25 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Khowords</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <h1>Welcome to KhoWords</h1>
-    <p>Your Number1 source for Khowar lyrics.</p>
-    <textarea placeholder="Type your search here..."></textarea>
+    <p>Your Number 1 source for Khowar lyrics.</p>
+
+    <textarea id="searchInput" placeholder="Type your search here..."></textarea>
     <br> 
-    <button>Search</button>
-    
+    <button onclick="searchLyrics()">Search</button>
+
+    <div id="resultBox"></div>
+
+    <!-- Link JS -->
+    <script src="js/app.js"></script>
 </body>
 </html>

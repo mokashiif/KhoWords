@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  background: #fafafa;
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+#resultBox {
+  margin-top: 20px;
+  padding: 10px;
+  background: white;
+  border: 1px solid #ddd;
+  width: 300px;
+}
