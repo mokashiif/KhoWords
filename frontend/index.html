@@ -5,21 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Khowords</title>
 
-    <!-- Link CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <h1>Welcome to KhoWords</h1>
-    <p>Your Number 1 source for Khowar lyrics.</p>
 
-    <textarea id="searchInput" placeholder="Type your search here..."></textarea>
-    <br> 
-    <button onclick="searchLyrics()">Search</button>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">KhoWords</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">Submit Lyrics</a></li>
+            <li><a href="#" class="login-btn">Login</a></li>
+        </ul>
+    </nav>
 
-    <div id="resultBox"></div>
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h1 class="title">Discover Khowar Music</h1>
+        <p class="subtitle">Search lyrics, contribute your own, and explore the culture.</p>
 
-    <!-- Link JS -->
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search for a song, artist...">
+            <button onclick="searchLyrics()">Search</button>
+        </div>
+
+        <div class="wave"></div>
+    </section>
+
+    <section class="results">
+        <h2>Results</h2>
+        <div id="resultBox"></div>
+    </section>
+
     <script src="js/app.js"></script>
 </body>
 </html>
